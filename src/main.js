@@ -6,8 +6,9 @@ import {searchPokByName, searchPokByNumber, filtradoTipo, filtradoDebilidad, fil
 const btnBuscarByName = document.getElementById("search");
 btnBuscarByName.addEventListener("input", (e) => {
   const searchingResult = searchPokByName(e.target.value);
-  console.log(e.target.value);
-  console.log(searchingResult);
+  if (searchingResult.length > 0) {
+    mostrarPokemon(searchingResult[0]);
+  }
 });
 
 //ventana del modal para cerrar

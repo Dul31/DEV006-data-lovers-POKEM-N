@@ -502,9 +502,8 @@ select option:checked{
     padding: 5%;
 }
 
-/*-ESTE CONTENDOR ES PARA LA CARD, LO HICE AYER -*/
-.contenedor-pokemones img{
-    height: 200px;
+.{
+    height: px;
     background-image: url("images/cards/card1.png");
 }
 

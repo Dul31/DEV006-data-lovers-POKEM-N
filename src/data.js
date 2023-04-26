@@ -14,7 +14,16 @@ export function searchPokByName(name) {
   }
   return searching;
 }
+function mostrarPokemon(pokemon) {
+  const card = document.querySelector("#card1");
+  const name = card.querySelector(".pokemon-name");
+  const img = card.querySelector(".pokemon-img-container");
+  const num = card.querySelector(".pokemon-num");
 
+  name.textContent = pokemon.name;
+  img.src = pokemon.img;
+  num.textContent = pokemon.num;
+}
 
 //input search by number
 //CONVERTIR EL STRING DEL INPUT EN NUMERO
@@ -115,3 +124,5 @@ export function calcularFuerza(data) {
   const fuerza = (baseAttack * baseDefense * Math.sqrt(baseStamina) * maxCp**2 / 10**8);
   return fuerza;
 }
+
+
