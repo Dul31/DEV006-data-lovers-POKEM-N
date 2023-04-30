@@ -54,8 +54,6 @@ cerrar.addEventListener('click', () =>  {
   console.log(msj)
 });
 
-
-
 //ventana del modal para cerrar
 const cerrarN = document.getElementById('cerrar');
 //para cerrar la ventana emergente
@@ -79,7 +77,6 @@ orderAz.addEventListener('click', () => {
   console.log(ordenado);
 })
 
-
 //ordenar de la Z-A FINAL
 const invertirZa = document.getElementById("za");
 invertirZa.addEventListener("click", () => {
@@ -88,3 +85,47 @@ invertirZa.addEventListener("click", () => {
   console.log(datosInvertidos);
 });
 
+//para que al hacer click se baje a la seccion filtrando
+const toFilterLink = document.getElementById("to-filter-link");
+toFilterLink.addEventListener("click", (event) => {
+  event.preventDefault();
+  const filtrandoSection = document.getElementById("filtrando-section");
+  filtrandoSection.scrollIntoView({ behavior: "smooth" });
+});
+
+//filtrar por tipo
+const selectType = document.getElementById("element-type-filter");
+selectType.addEventListener("change", () => {
+  const filtrado = filtradoTipo(selectType.value);
+  console.log(filtrado);
+});
+
+//filtrar por debilidad
+const selectWeaknesses = document.getElementById("element-weaknesses-filter");
+selectWeaknesses.addEventListener("change", () => {
+  const filtradoD = filtradoDebilidad(selectWeaknesses.value);
+  console.log(filtradoD);
+});
+
+//filtrar por fortaleza
+const selectResistant = document.getElementById('element-resistant-filter');
+selectResistant.addEventListener("change", () => {
+  const filtradoR = filtradoResistencia(selectResistant.value);
+  console.log(filtradoR)
+});
+
+//ordenar ascendentemente
+const menorAmayor = document.getElementById("ascendente");
+menorAmayor.addEventListener("click", () => {
+  const datosOrdenados = ordenarPorNumeroAscendente();
+  // Manipulación del DOM para mostrar los datos ordenados por número ascendente
+  console.log(datosOrdenados);
+});
+
+//ordenar descendentemente
+const mayorAmenor = document.getElementById("descendente");
+mayorAmenor.addEventListener("click", () => {
+  const datosOrdenados = ordenarPorNumeroDescendente();
+  // Manipulación del DOM para mostrar los datos ordenados por número descendente
+  console.log(datosOrdenados);
+});
