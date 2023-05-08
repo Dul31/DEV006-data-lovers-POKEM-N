@@ -1,7 +1,9 @@
 #DATA LOVER  
-
 * [CLICK AQUÍ](https://dul31.github.io/DEV006-data-lovers-POKEM-N/src/index.html)
+
 <div id="header" .align ="center">
+<br>
+<br>
 <img src= "./src/images/img.rea me/portada-readme.png" .width="auto"/>
 </div>
 <br>
