@@ -1,6 +1,6 @@
 #DATA LOVER
 <div id="header" .align ="center">
-<img src= "./src/images/portada-readme.png" .width="auto"/>
+<img src= "./src/images/img.readme/portada-readme.png" .width="auto"/>
 </div>
 <br>
 <div id= "title">
@@ -8,7 +8,10 @@
 </div>
 <br>
 <br>
-<span><img src= "./src/images/barra-menu.png" width="25"/> Indice</span>
+<div>
+<h><img src= "./src/images/barra-menu.png" width="25"/>Indice</h>
+</div>
+
 
 * [1. Presentación](#1-presentación)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
