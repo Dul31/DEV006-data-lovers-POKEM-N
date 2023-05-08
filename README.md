@@ -1,5 +1,12 @@
 <div id="header" .align ="center">
 <img src= "./src/images/portada-readme.png" .width="auto"/>
+<<<<<<< HEAD
+=======
+</div>
+
+<div id="title">
+<h1 id= "titulo" .font-size= "40" .color="blue" .font-weigth= "800">Data Lovers *POKEMON GO CARDS*</h1>
+>>>>>>> 9834d2efc8140fe2504e8a3f99bce2305883258d
 </div>
 # Data Lovers
 
