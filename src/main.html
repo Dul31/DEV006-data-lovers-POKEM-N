@@ -23,14 +23,13 @@
       <audio
         id="reproductor"
         src="sounds/musica-main.mp3"
-        autoplay="true"
-      ></audio>
+        autoplay="true"></audio>
       <div class="contenedor-barra">
         <div class="contenedor-logo">
-          <img class="img-menu" src="images/iconos/menu.png" />
+          <img class="img-menu" src="images/iconos/menu.png" id="menu" click="toggleMenu()" />
         </div>
-        <!---->
-        <nav class="elements">
+
+        <nav class="elements" id="barra">
           <ul>
             <li>
               <a href="index.html"
@@ -96,19 +95,21 @@
               />
               <img src="images/iconos/icon-lupa.png" alt="buscar" />
               <div class="pokebola">
-                <img src="images/barra-menu.png" alt="pokebola" />
+                <img src="images/barra-menu.png" id="filter-toggle" alt="pokebola" />
               </div>
             </div>
           </form>
-          <nav class="box-filter">
+          <nav class="box-filter" id="box-filter-hidden">
             <div class="selectores">
               <div>
                 <label for="type" id="type">TYPE</label>
                 <select id="element-type-filter">
                   <option value="all">--all--</option>
                   <option value="bug">Bug</option>
+                  <option value="dark">Dark</option>
                   <option value="dragon">Dragon</option>
                   <option value="electric">Electric</option>
+                  <option value="fairy">Fairy</option>
                   <option value="fighting">Fighting</option>
                   <option value="fire">Fire</option>
                   <option value="flying">Flying</option>
@@ -120,6 +121,7 @@
                   <option value="poison">Poison</option>
                   <option value="psychic">Psychic</option>
                   <option value="rock">Rock</option>
+                  <option value="steel">Steel</option>
                   <option value="water">Water</option>
                 </select>
               </div>
@@ -130,8 +132,10 @@
                 <select id="element-weaknesses-filter">
                   <option value="all">--all--</option>
                   <option value="bug">Bug</option>
+                  <option value="dark">Dark</option>
                   <option value="dragon">Dragon</option>
                   <option value="electric">Electric</option>
+                  <option value="fairy">Fairy</option>
                   <option value="fighting">Fighting</option>
                   <option value="fire">Fire</option>
                   <option value="flying">Flying</option>
@@ -143,6 +147,7 @@
                   <option value="poison">Poison</option>
                   <option value="psychic">Psychic</option>
                   <option value="rock">Rock</option>
+                  <option value="steel">Steel</option>
                   <option value="water">Water</option>
                 </select>
               </div>
@@ -155,6 +160,7 @@
                   <option value="bug">Bug</option>
                   <option value="dragon">Dragon</option>
                   <option value="electric">Electric</option>
+                  <option value="fairy">Fairy</option>
                   <option value="fighting">Fighting</option>
                   <option value="fire">Fire</option>
                   <option value="flying">Flying</option>
@@ -166,6 +172,7 @@
                   <option value="poison">Poison</option>
                   <option value="psychic">Psychic</option>
                   <option value="rock">Rock</option>
+                  <option value="steel">Steel</option>
                   <option value="water">Water</option>
                 </select>
               </div>
