@@ -1,6 +1,8 @@
 #DATA LOVER
 <div id="header" .align ="center">
 <img src= "./src/images/img.readme/portada-readme.png" .width="auto"/>
+<<<<<<<<< Temporary merge branch 1
+=========
 </div>
 <br>
 <div id= "title">
@@ -10,19 +12,26 @@
 <br>
 <div>
 <h><img src= "./src/images/barra-menu.png" width="25"/>Indice</h>
+>>>>>>>>> Temporary merge branch 2
 </div>
-
+<br>
+<div id= "title">
+<img src= "./src/images/img.readme/titulo pokemon.png">
+</div>
+<br>
+<br>
+<span style="color: #0232d1; font-weight:800; font-size:35px; font-family: cursive;"><img src= "./src/images/barra-menu.png" width="25"/> Indice</span>
 
 * [1. Presentación](#1-presentación)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
 * [3. Planificación del proyecto](#3-planificación-del-proyecto)
 * [4. Diseño UX](#4-diseño-ux)
-  * [Investigación con jugadores de Pokemon Go](investigación-con-jugadores-de-Pokemon-Go)
-  * [Expectativas y necesidades del usuario en base al juego](#Expectativas-y-necesidades-del-usuario-en-base-al-juego)
-   * [Público Objetivo](#publico-objetivo)
-   * [Test de Usabilidad y feedback](#Test-de-Usabilidad-y-feedback)
+  * [Investigación UX](#investigación-ux)
+  * [Expectativas y necesidades del usuario en base al juego](#expectativas-y-necesidades-del-usuario-en-base-al-juego)
+   * [Público Objetivo](#público-objetivo)
+   * [Test de Usabilidad y feedback ✏️](#test-de-usabilidad-y-feedback-✏️)
 * [5. Diseño UI](#5-diseño-ui)
-   * [Proceso del diseño](#proceso-del-diseño)
+   * [Proceso del diseño 🎨](#proceso-del-diseño-🎨)
       * [Estilo](#estilo)
       * [Teoria del color](#teoria-del-color)
    * [Prototipo de baja fidelidad](#prototipo-de-baja-fidelidad)
@@ -42,8 +51,12 @@
 * [11. Checklist](#11-checklist)
 ***
 
+
 ## 1. Presentación
 Pokemon Go Cards es una web creada para los fans y aficionados del juego original con el objetivo que puedan complementar y filtrar información sobre los pokemones de las dos primeras generaciones, y que el usuario pueda utilizar dichos datos según sus necesidades. La navegación dentro del sitio web es amigable, dinámica e intuitiva, y lograr que el usuario sienta comodidad al trasladarse de una interfaz a otra.
+
+* [CLICK AQUÍ](https://dul31.github.io/DEV006-data-lovers-POKEM-N/src/index.html)
+
 
 ![presentación](https://github.com/Dul31/DEV006-data-lovers-POKEM-N/blob/dul/src/images/img.readme/preambulo.png?raw=true)
 
@@ -60,17 +73,17 @@ Además, de acompañamiento por parte de nuestros coaches de Laboratoria en Offi
 ![pokemon-data-to-ui](https://github.com/Dul31/DEV006-data-lovers-POKEM-N/blob/dul/src/images/img.readme/trello.png?raw=true)
 
 ## 4. Diseño UX
-### Investigación UX
+#### Investigación UX
 #### ¿Cuáles son los objetivos en relación con el producto?
 
 En vista que los usuarios tienen la necesidad de acceder a una web amigable, interactiva y fácil de navegar que le brinde una set de datos con información general de los pokemones, y este pueda filtrarla a su conveniencia, se crea esta web responsive, y así realizar la búsqueda de sus pokemones favoritos o de los que desconocen. También, podrán filtrar a los pokemones por su tipo, debilidad, fortaleza, ver a los 10 pokemones más fuertes y a los 10 más débiles. Además, podrán buscarlos por su nombre o número, ordenarlos de manera alfabética, invertir el orden, y ordenar de manera ascendente y descendente.
 
-
 ### HISTORIA DE USUARIO
 <div id= "title">
-<img src= "./src/images/img.readme/jean paul1.jpeg">
-<img src= "./src/images/img.readme/jean paul2.jpeg">
+<img src= "./src/images/img.readme/Frame 7.png">
+<img src= "./src/images/img.readme/Frame 5.png">
 </div>
+
 ### Expectativas y necesidades del usuario en base al juego
 ##### Historia de Usuario 1
 Niño de 10 años, fan de pokemon anime, no juega pokemon go.
@@ -95,8 +108,8 @@ Feedback:
 ##### Historia de Usuario 3
 Joven de 29 años, fan de pokemon anime y juega de recurrente pokemon go.
 Expectativas
-Filtrar los pokemons por resitencia.
-Filtrar los pokemons por debilidad.
+Filtrar los pokemones por resitencia.
+Filtrar los pokemones por debilidad.
 Que tengas links de la página del juego y sus redes sociales.
 Feedback:
 ·        Que siga una misma temática y que tenga una paleta y estética similar en todo el sitio.
@@ -115,8 +128,9 @@ Este proyecto está dirigido a aficionados y fans de Pokemon Go, pero el princip
 Creamos un formulario para poder recibir feddback
 
 * [formulario](https://docs.google.com/forms/d/1bRc4ESmXYJtKOSIivmpAbHZcvYHzENEbVpUKvZkh5vo/edit?usp=forms_home&ths=true)
+
 ## 5. Diseño UI
-### Proceso del diseño [🎨]
+## Proceso del diseño [🎨]
 #### Estilo
 Interactivo, intuitivo, fácil de navegar y atractivo visualmente para el usuario.
 #### Teoria del color
@@ -142,8 +156,8 @@ Utilizamos una herramienta para generar una paleta de colores que sea similar a 
 ### Prototipo de alta fidelidad
 Para ver el prototipo, haz click aquí
 * [Figma](https://www.figma.com/proto/Xv0Gt7REai4lkaYZXxfFuk/Untitled?type=design&node-id=246-102&scaling=min-zoom&page-id=246%3A66&starting-point-node-id=246%3A102)
+
 ## 6. Diseño final
-### PC
 ##### PRIMERA INTERFAZ
 
 <div id="uno" .display="flex" .align="center" .width="300px">
@@ -234,6 +248,7 @@ Para ver el prototipo, haz click aquí
 <br>
 </div>
 
+
 ## 7. Objetivos de aprendizaje
  [ ✔️] **SÍ**     [ ❌]**NO**     [ 🟡] **REGULAR**
 
@@ -288,7 +303,6 @@ Para ver el prototipo, haz click aquí
 - [ ✔️] **GitHub: Despliegue con GitHub Pages**
 - [ ❌] **GitHub: Colaboración en Github (branches | forks | pull requests | code review | tags)**
 
-
 ## 8. Consideraciones generales
 
 * Este proyecto se realizó en duplas.
@@ -318,6 +332,7 @@ Para realizar las pruebas unitarias se tuvo que crear `tests` para comprobar si 
 * [Trello](https://trello.com/)
 * [Photoshop](https://adobe-photoshop.softonic.com/)
 * [Canva](https://www.canva.com/)
+* [Generador de paleta de colores personalizada](https://coolors.co/)
 
 ## 11. Checklist
 [ ✔️] **SÍ**
@@ -343,3 +358,5 @@ Para realizar las pruebas unitarias se tuvo que crear `tests` para comprobar si 
 * [ ✔️] UI: Permite ordenar data por uno o más campos (asc y desc).
 * [ ✔️] UI: Permite filtrar data en base a una condición.
 * [ ✔️] UI: Es _responsive_.
+
+
