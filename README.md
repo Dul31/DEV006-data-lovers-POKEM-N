@@ -1,8 +1,6 @@
 #DATA LOVER
 <div id="header" .align ="center">
 <img src= "./src/images/img.readme/portada-readme.png" .width="auto"/>
-<<<<<<<<< Temporary merge branch 1
-=========
 </div>
 <br>
 <div id= "title">
