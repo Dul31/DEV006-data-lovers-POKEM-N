@@ -1,22 +1,10 @@
-#DATA LOVER
-<div id="header" .align ="center">
+<div>
 <img src= "./src/images/img.readme/portada-readme.png" .width="auto"/>
 </div>
 <br>
 <div id= "title">
 <img src= "./src/images/img.readme/titulo pokemon.png">
 </div>
-<br>
-<br>
-<div>
-<h><img src= "./src/images/barra-menu.png" width="25"/>Indice</h>
->>>>>>>>> Temporary merge branch 2
-</div>
-<br>
-<div id= "title">
-<img src= "./src/images/img.readme/titulo pokemon.png">
-</div>
-<br>
 <br>
 <span style="color: #0232d1; font-weight:800; font-size:35px; font-family: cursive;"><img src= "./src/images/barra-menu.png" width="25"/> Indice</span>
 
