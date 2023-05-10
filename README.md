@@ -1,15 +1,12 @@
-<div id="header" .align ="center">
-<img src= "./src/images/img.readme/portada-readme.png"/>
+<div>
+<img src= "./src/images/img.readme/portada-readme.png" .width="auto"/>
 </div>
 <br>
 <div id= "title">
 <img src= "./src/images/img.readme/titulo pokemon.png">
 </div>
 <br>
-<div id="estilo">
-<span style=" font-family: cursive; font-size: 35px; color: #002bec;"><img src= "./src/images/barra-menu.png" width="25"/> Indice</span>
-</div>
-<br>
+<span style="color: #0232d1; font-weight:800; font-size:35px; font-family: cursive;"><img src= "./src/images/barra-menu.png" width="25"/> Indice</span>
 
 * [1. Presentación](#1-presentación)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
