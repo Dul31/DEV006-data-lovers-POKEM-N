@@ -41,7 +41,7 @@
 ## 1. Presentación
 Pokemon Go Cards es una web creada para los fans y aficionados del juego original con el objetivo que puedan complementar y filtrar información sobre los pokemones de las dos primeras generaciones, y que el usuario pueda utilizar dichos datos según sus necesidades. La navegación dentro del sitio web es amigable, dinámica e intuitiva, y lograr que el usuario sienta comodidad al trasladarse de una interfaz a otra.
 
-* [CLICK AQUÍ PARA VISITAR NUESTRA WEB](https://dul31.github.io/DEV006-data-lovers-POKEM-N/src/index.html)
+* [CLICK AQUÍ PARA VISITAR NUESTRA WEB](https://dulrz.github.io/DEV006-data-lovers-POKEM-N/src/index.html)
 
 
 ![presentación](https://github.com/Dul31/DEV006-data-lovers-POKEM-N/blob/dul/src/images/img.readme/preambulo.png?raw=true)
